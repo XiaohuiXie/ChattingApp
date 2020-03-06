@@ -5,3 +5,40 @@ Backend Handled by:
   
   1. MySQL DB created by Matt
   2. Flask Server created by David
+  
+  
+  _____________________________________________________________________________________________________________________
+  
+  Steps to run flask server example:
+
+1) Install MySQL, PyCharm
+2) In mysql you need to create a simple table with two columns: name & email.
+3) In Pycharm or terminal window need to install following packages:
+Pip
+Flask
+mysql-client
+flask-mysqldb
+JSON
+(packages can be installed via file settings-> interepter and hit the plus sign, or can be done in command line. 
+To install flask will need to use pip)
+4) In the code that says app.config['MySQL_Host'] it should equal localhost unless you are connecting elsewhere(then put ip address). 
+The user & password should be the one you set up when installing mysql. The mysql_db should be the name of the databse you made or 
+are connecting to.
+
+5) Once packages are installed you should then be able to run the app.
+Once running the code, you can open an browser and go to lcoalhost. At the bottom of the code it will show the url.  
+
+----------------------------------------------------------------------
+
+Endpoints of App:
+
+App -> User Table
+Need get, insert, update functions.
+App -> Profile Table
+Need get, insert, update functions.
+App -> Friendship Table
+Need get, insert, delete functions.
+App -> Conversation Table
+Need get, insert, delete functions.
+App -> Message Table
+Need get, insert functions.
