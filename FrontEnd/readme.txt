@@ -1,1 +1,1 @@
-Login, Register, Contact and Discover Page created by Ce
+Login, Register, Contact,Discover Page and Personal Page created by Ce
